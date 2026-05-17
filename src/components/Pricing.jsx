@@ -24,7 +24,7 @@ export default function Pricing() {
             <button className="w-full py-5 rounded-2xl border-2 border-primary font-bold text-primary hover:bg-primary hover:text-white transition-all active:scale-[0.98]">Select Resident Plan</button>
           </div>
           {/* Professional */}
-          <div className="bg-[#131b2e] p-14 rounded-4xl text-left scale-105 shadow-[0_40px_80px_rgba(0,106,97,0.15)] relative border border-secondary/30 overflow-hidden flex flex-col z-20">
+          <div className="bg-[#1a237e] p-14 rounded-4xl text-left scale-105 shadow-[0_40px_80px_rgba(0,106,97,0.15)] relative border border-secondary/30 overflow-hidden flex flex-col z-20">
             <div className="absolute top-0 right-0 bg-secondary text-on-secondary px-8 py-3 rounded-bl-2xl font-extrabold text-label-sm tracking-widest uppercase shadow-lg">MOST POPULAR</div>
             <h4 className="font-headline-sm text-[32px] mb-3 text-white">Professional</h4>
             <div className="flex items-baseline gap-1 mb-12">

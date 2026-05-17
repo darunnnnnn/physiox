@@ -7,10 +7,10 @@
 }
 
 .mesh-gradient {
-  background-color: #f7f9fb;
+  background-color: #f5f7fc;
   background-image:
-    radial-gradient(at 0% 0%, hsla(173, 100%, 94%, 1) 0, transparent 50%),
-    radial-gradient(at 100% 100%, hsla(225, 41%, 92%, 1) 0, transparent 50%);
+    radial-gradient(at 0% 0%, hsla(231, 80%, 94%, 1) 0, transparent 50%),
+    radial-gradient(at 100% 100%, hsla(225, 60%, 90%, 1) 0, transparent 50%);
 }
 
 .hero-text-shadow {
