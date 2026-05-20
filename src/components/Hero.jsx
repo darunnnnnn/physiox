@@ -1,3 +1,5 @@
+import heroBg from '../assets/screen.png'
+
 export default function Hero() {
   return (
     <section className="relative min-h-[880px] flex items-center overflow-hidden">
@@ -5,8 +7,8 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-r from-surface via-surface/95 to-surface/20 z-10"></div>
         <img
           className="w-full h-full object-cover"
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnhvuW26vOcAdV6d9A6grGBLLJ7j1SiykxNwVzivgviM0FJCQVTbjDj_DTnb9cF8MBrBhdrE0ANX3Vzf1E4myb0oalFwaJzBQ4Q66meV0-aUrszUh8c5T99NPfgve1YNSTPfdZTpNLJbi5_t5xP8SLtTAL8Ld59RR4Jm-MzE5lVT1TvjGUzSL7zVojO-uUwd3Dgju_MYvVykkCFY-aDI_P9ZBO8VYQLalFzPLuaYNbKsxHHAtVq-PuV-X2eH4wwQ-v-eCm3mV7pAg6"
-          alt="State-of-the-art physiotherapy clinic interior"
+          src={heroBg}
+          alt="High-end clinical photography of a modern physiotherapy and human performance center"
         />
       </div>
       <div className="relative z-20 px-margin-desktop container mx-auto max-w-container-max">
